@@ -1,0 +1,28 @@
+{
+  "name": "minimal-redux-api-tests",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "nock": "10.0.2",
+    "prop-types": "15.6.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-redux": "5.0.6",
+    "react-test-renderer": "16.6.0",
+    "redux": "3.7.2",
+    "redux-immutable-state-invariant": "2.1.0",
+    "redux-mock-store": "1.5.3",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
