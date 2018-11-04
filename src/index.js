@@ -2,11 +2,10 @@ import React from "react";
 import { render } from "react-dom";
 import { Provider } from "react-redux";
 import configureStore from "./store/configureStore";
-import App from "./components/App";
 import Items from "./components/items/Items";
 import initialState from "./reducers/initialState";
 import { getItems } from "./actions/itemsActions";
-
+import "./style.css";
 const store = configureStore(initialState);
 
 if (window.location.pathname === "/") {
